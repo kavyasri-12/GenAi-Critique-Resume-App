@@ -34,9 +34,8 @@
      #   return f"⚠️ Matching Error: {e}"
 
 
-
-from sklearn.metrics.pairwise import cosine_similarity
 from sentence_transformers import SentenceTransformer
+from sklearn.metrics.pairwise import cosine_similarity
 
 # Load a light and effective local model
 model = SentenceTransformer("all-MiniLM-L6-v2")
