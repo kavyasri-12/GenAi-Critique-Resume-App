@@ -2,7 +2,7 @@ import re
 import fitz  # PyMuPDF
 from docx import Document
 
-# -------- TEXT EXTRACTION --------
+# -------- TEXT EXTRACTION -------
 def extract_text(file):
     if file.type == "application/pdf":
         return extract_pdf(file)
