@@ -9,8 +9,9 @@ st.set_page_config(page_title="GenAI Resume Critique Bot", layout="centered")
 st.title("🧠 GenAI Resume Critique Bot")
 st.markdown("Upload your resume to get LLM-powered feedback and optional JD match.")
 
-uploaded_resume = st.file_uploader("📤 Upload Resume (PDF or DOCX)", type=["pdf", "docx"])
+
 jd_text = st.text_area("📌 Paste Job Description (Optional)", height=200)
+uploaded_resume = st.file_uploader("📤 Upload Resume (PDF or DOCX)", type=["pdf", "docx"])
 
 if uploaded_resume:
     with st.spinner("📄 Extracting and analyzing resume..."):
