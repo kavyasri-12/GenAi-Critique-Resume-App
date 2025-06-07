@@ -17,8 +17,8 @@ https://genai-critique-resume-app-exegll6j3zheykfji3y932.streamlit.app/
 
 - Frontend: [Streamlit](https://streamlit.io/)
 - Backend: Python
-- LLMs: Groq API (LLaMA models)
 - Embeddings: `sentence-transformers` (MiniLM model)
+- LLMs: Groq API (LLaMA models)
 - Resume parsing: `PyMuPDF` for PDF and `python-docx` for DOCX
 
 ## 📁 File Structure
