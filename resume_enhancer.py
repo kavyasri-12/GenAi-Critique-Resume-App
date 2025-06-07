@@ -1,6 +1,6 @@
 import requests
 
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "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"
 GROQ_CHAT_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 def enhance_resume(resume_text, jd_text):
