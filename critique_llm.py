@@ -1,7 +1,7 @@
 import requests
 
 # Option 1: Set API key directly (for testing only)
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "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"
 
 # Option 2: Use environment variable (recommended for production)
 # import os
