@@ -1,6 +1,6 @@
 import requests
 
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "Your Groq api key"
 GROQ_CHAT_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 def enhance_resume(resume_text, jd_text):
@@ -38,3 +38,4 @@ Now provide the enhanced version of the resume:
         return response.json()["choices"][0]["message"]["content"]
     else:
         raise Exception(f"Enhancement error {response.status_code}: {response.text}")
+
